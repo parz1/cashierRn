@@ -35,7 +35,6 @@ function HomeScreen({navigation}) {
 function DetailsScreen({route, navigation}) {
   /* 2. Get the param */
   const {itemId, otherParam} = route.params;
-  console.log('rerendering DetailsScreen');
   return (
     <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
       <Animated.Text sharedTransitionTag="tagtext">hello, there</Animated.Text>
